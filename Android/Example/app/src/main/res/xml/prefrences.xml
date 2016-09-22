@@ -1,0 +1,71 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <PreferenceCategory
+        android:title="Application alerts">
+
+        <CheckBoxPreference
+            android:key="set_park"
+            android:title="Notification for full parking"
+            android:defaultValue="false"
+
+
+
+
+            android:summary="Notifies when parking gets full"
+         />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Motor Controls">
+
+        <CheckBoxPreference
+            android:key="set_motor"
+            android:title="Automatically start motor and stop"
+            android:defaultValue="false"
+
+
+
+
+            android:summary="Motor is started"
+            />
+        <EditTextPreference
+            android:key="set_motor_value_min"
+            android:title="Value to start motor"
+            android:defaultValue="100"
+
+            android:inputType="number"
+            android:summary="Minimum value to start motor"
+            android:dialogTitle="Type time in sec" />
+        <EditTextPreference
+            android:key="set_motor_value_max"
+            android:title="Value to stop motor"
+            android:defaultValue="200"
+            android:inputType="number"
+
+
+            android:summary="Maximum value to stop motor"
+            android:dialogTitle="" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Gate Controls">
+        <CheckBoxPreference
+            android:key="set_gate"
+            android:title="Automatically lock gates"
+            android:defaultValue="false"
+
+
+
+
+            android:summary="Gate is locked"
+            />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

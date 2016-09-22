@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/final_spots"
+    android:animateLayoutChanges="true"
+    android:id="@+id/frag"
+
+    tools:context="com.client.example.BlankFragment">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:src="@drawable/newcar"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="75dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/newcar"
+        android:layout_marginLeft="16dp"
+       android:layout_toRightOf="@+id/imageView1"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/newcar"
+
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/newcar"
+
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/imageView3"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@drawable/newcar"
+
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/imageView1"
+        android:visibility="invisible" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:src="@drawable/newcar"
+
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/imageView2"
+        android:visibility="invisible" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:src="@drawable/newcar"
+
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/imageView3"
+        android:visibility="invisible" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:src="@drawable/newcar"
+
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/imageView4"
+        android:visibility="invisible" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+        android:src="@drawable/newcar"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView5"
+        android:visibility="invisible" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView10"
+        android:src="@drawable/newcar"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView6"
+        android:visibility="invisible" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView11"
+        android:src="@drawable/newcar"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView7"
+        android:visibility="invisible" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView12"
+        android:src="@drawable/newcar"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView8"
+        android:visibility="invisible" />
+
+</RelativeLayout>

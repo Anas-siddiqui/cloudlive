@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Cloud live</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_with_messages">Play with ARTIK Cloud</string>
+    <string name="welcome_txt">Welcome </string>
+    <string name="send_btn_txt">send a message</string>
+    <string name="sendmsg_response">Response </string>
+    <string name="getlatest_btn_txt">Get the latest message</string>
+    <string name="getlatest_response_mid">id </string>
+    <string name="getlatest_response_mdata">data </string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="title_section1">Parking</string>
+    <string name="title_section2">Rooms</string>
+    <string name="title_section3">company</string>
+
+
+    <string name="action_example">Example action</string>
+
+
+    <string name="device_name">Device Name</string>
+    <string name="device_id">Device ID</string>
+    <string name="websocketws_status">WebSocket /websocket status</string>
+    <string name="websocketws_received">/websocket received msg or ack are here...</string>
+    <string name="device_status">Device Status</string>
+    <string name="websocketlive_status">WebSocket /live status</string>
+    <string name="status_update_time">Status Update Time</string>
+
+
+
+
+</resources>
